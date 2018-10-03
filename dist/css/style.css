@@ -1,0 +1,21 @@
+.navigations{
+    float: right;
+    width: 100px;
+}
+.item{
+    margin: 80px;
+    /*border: 1px black solid;*/
+    border-style: outset !important;
+    border-radius: 5px;
+    text-align: center;
+}
+#txtQty{
+    width: 100px !important;
+}
+.hidden{
+    display: none;
+}
+.itemImg{
+    max-width: 300px;
+    max-height: 300px;
+}

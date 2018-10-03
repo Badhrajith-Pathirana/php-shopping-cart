@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/css/style.css"/>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <!--<img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">-->
+            Shopping Cart
+        </a>
+    </nav>
+</header>
+<div id="LoginDiv">
+    <div class="content">
+        <div class="col-1 col-md-4"></div>
+        <div class="col-10 col-md-10">
+            <form>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                </div>
+                <button type="button" class="btn btn-primary" id="btnLogin">Log In</button><br>
+                <small>Click here to <a href="signup.html">Sign up</a> </small>
+            </form>
+        </div>
+        <div class="col-1 col-md-4"></div>
+    </div>
+</div>
+<script src="dist/js/plugin/jquery-3.3.1.min.js"></script>
+<script src="dist/js/controller/login-controller.js"></script>
+</body>
+</html>
